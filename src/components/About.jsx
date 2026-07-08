@@ -22,12 +22,13 @@ const About = () => {
         stagger: 0.02,
       })
       .from(
-        ".top-grid div,.bottom-grid div ",
+        ".top-grid img, .bottom-grid img",
         {
           opacity: 0,
-          duration: 1,
-          ease: "power1.inOut",
-          stagger: 0.04,
+          filter: "blur(15px)",
+          duration: 1.2,
+          ease: "power2.out",
+          stagger: 0.15,
         },
         "-=0.5",
       );

@@ -248,7 +248,7 @@ body {
         }
 
         .content {
-            @apply flex md:flex-row flex-col justify-between md:mb-16 md:mt-0 mt-40 gap-10;
+            @apply flex md:flex-row flex-col justify-between md:mb-16 md:mt-0 mt-40 gap-10 ;
         }
 
         .cocktail-img {
